@@ -12,11 +12,13 @@ type PostsProp = {
 };
 
 import React from "react";
+import Card from "../components/Card";
 
 const Home: React.FC<PostsProp> = ({ posts }) => {
   return (
     <Layout>
       <h1>{`Page d'accueil`}</h1>
+      <Card/>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
