@@ -6,7 +6,7 @@ const Card = () => {
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
         <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-      </figure>
+      </figure> 
       <div className="card-body">
         <h2 className="card-title">
           Shoes!
